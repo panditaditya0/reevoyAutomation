@@ -28,7 +28,7 @@ public class ToDoTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://www.browserstack.com/");
+        driver.get("https://www.todo.com/");
     }
 
     @Test
